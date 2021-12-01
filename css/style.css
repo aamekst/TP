@@ -1,0 +1,85 @@
+#home {
+    margin: 100px;
+    background-color: SlateBlue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1px;
+    margin-left: 150px;
+    width: 1150px;
+}
+
+Body {
+    background-color: aliceblue;
+    max-width: 1000px;
+    display: block;
+}
+
+.container3 {
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -100px;
+    margin-left: 220px;
+}
+
+.container3 .cards {
+    max-width: 300px;
+    position: relative;
+    width: 280px;
+    height: 250px;
+    margin: 30px 10px;
+    padding: 20px 10px;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    background-color: white;
+    border-radius: 11px;
+    border: 1px solid black;
+    box-shadow: 5px 5px rgb(42, 6, 66);
+}
+
+.container3 .cards:hover {
+    height: 280px;
+}
+
+.container3 .cards .imagem_info {
+    position: relative;
+    width: 250px;
+    height: 220px;
+    top: -20px;
+    left: 0%;
+    z-index: 1;
+}
+
+.container3 .cards .imagem_info img {
+    max-width: 100%;
+    border: 11px;
+    visibility: visible;
+    transition: 0.3s ease-in-out;
+}
+
+.container3 .cards:hover .imagem_info img {
+    visibility: hidden;
+    transition: 0.1s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.container3 .cards .texto3 {
+    position: relative;
+    margin-top: -150px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    visibility: hidden;
+    transition: 0.1s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container3 .cards:hover .texto3 {
+    visibility: visible;
+    transition-delay: 0.3s;
+    cursor: pointer;
+}
